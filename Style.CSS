@@ -1,61 +1,72 @@
+body {
+	width: 1200px;
+	margin: auto;
+}
+
 .logo {
-	float: top-left;
+	display: flex;
+	justify-content: flex-start;
 }
 
-h1 {
-	text-align: right;
-	font-family: Letterpress;
-	font-weight: lighter;
-	margin: 2px 10px;
+header {
+	display: flex;
+	justify-content: space-between;
 }
 
-h3 {
-	font-family: Letterpress;
-	text-align: right;
-	margin: 2px 10px
+.main-text {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	flex-direction: column;
 }
 
-.messi-pic {
-	float: center;
-	margin-top: 20px;
+.main-text h1 {
+	margin: 5px 5px;
+	display: flex;
 }
 
-h2 {
-	font-family: Letterpress;
-	font-weight: lighter;
-	float: left;
-	margin: 10px 10px;
+.main-text h3 {
+	margin: 5px 5px;
 }
 
-.ronaldo-pic {
-	float: left;
-	position: relative;
-	right: 40px;
-	margin: 10px 10px;
+.messi-pic img {
+	width: 1200px;
+	margin: auto;
 }
 
-.alexis-pic {
-	float: center;
+hr {
+	margin: 5px 0px 30px 0px;
 }
 
-.pogba-pic {
-	float: right;
+.ronaldo-pic img {
+	display: flex;
+	justify-content: flex-start;
+	width: 300px;
 }
 
-.foot1 {
-	float: left;
-	font-family: Letterpress;
-	font-weight: lighter;
+.alexis-pic img {
+	display: flex;
+	justify-content: center;
+	width: 300px;
 }
 
-.foot2 {
-	float: center;
-	font-family: Letterpress;
-	font-weight: lighter;
+.pogba-pic img {
+	display: flex;
+	justify-content: flex-end;
+	width: 300px;
 }
 
-.foot3 {
-	float: right;
-	font-family: Letterpress;
-	font-weight: lighter;
+.featured-players {
+	display: flex;
+	align-items: row;
+	justify-content: space-between;
+
+}
+
+.featured-players h2 {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
 }
