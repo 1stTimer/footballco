@@ -1,0 +1,61 @@
+.logo {
+	float: top-left;
+}
+
+h1 {
+	text-align: right;
+	font-family: Letterpress;
+	font-weight: lighter;
+	margin: 2px 10px;
+}
+
+h3 {
+	font-family: Letterpress;
+	text-align: right;
+	margin: 2px 10px
+}
+
+.messi-pic {
+	float: center;
+	margin-top: 20px;
+}
+
+h2 {
+	font-family: Letterpress;
+	font-weight: lighter;
+	float: left;
+	margin: 10px 10px;
+}
+
+.ronaldo-pic {
+	float: left;
+	position: relative;
+	right: 40px;
+	margin: 10px 10px;
+}
+
+.alexis-pic {
+	float: center;
+}
+
+.pogba-pic {
+	float: right;
+}
+
+.foot1 {
+	float: left;
+	font-family: Letterpress;
+	font-weight: lighter;
+}
+
+.foot2 {
+	float: center;
+	font-family: Letterpress;
+	font-weight: lighter;
+}
+
+.foot3 {
+	float: right;
+	font-family: Letterpress;
+	font-weight: lighter;
+}
